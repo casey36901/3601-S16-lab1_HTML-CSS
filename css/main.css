@@ -5,6 +5,11 @@ h2 {
 
 p {
     font-family: monospace;
+    letter-spacing: 0.5em;
+}
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Red_flag.svg/2000px-Red_flag.svg.png");
 }
 
 img {
@@ -14,6 +19,27 @@ img {
     margin-right: auto;
 }
 
-.centerText {
+.centerText,.footerText {
     text-align: center;
+}
+
+.footerText {
+    font-size: 10%;
+}
+
+#nesting{
+    background-color: #ccc;
+    padding: 200em
+    font-family: monospace;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+
+#nesting p {
+    padding: 200em
+    font-family: monospace;
+    letter-spacing: 0.5em;
+    color: red;
+    font-weight: bold;
+    font-size: 80%;
 }
