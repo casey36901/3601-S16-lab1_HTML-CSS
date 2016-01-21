@@ -1,5 +1,5 @@
 h2 {
-    color: red;
+    color: yellow;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
@@ -43,3 +43,15 @@ img {
     font-weight: bold;
     font-size: 80%;
 }
+
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width:100px;
+    height:auto;
+}
+
